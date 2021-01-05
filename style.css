@@ -9,8 +9,14 @@ h1{
     font-size: 50px;
     margin-bottom: 60px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
+}
+p{
+    color: dimgray;
 }
 .half-width{
     width: 40%;
@@ -31,10 +37,40 @@ h1{
     border-radius: 8%;
     border: 1px solid red;
 }
-p{
-    color: dimgray;
-}
+
 .welcome{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+}
+.shadow{
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px dimgray;
+    height: 380px;
+    
+}
+#baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#basic{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
 }
